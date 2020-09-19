@@ -1,0 +1,1 @@
+function navSlide(){var e=document.querySelector(".burger"),n=document.querySelector(".nav-links");e.addEventListener("click",function(){n.classList.toggle("nav-active")})}navSlide(),console.log("Hey Ho");
