@@ -15,13 +15,20 @@
   <title>Davli</title>
 
   <!-- CSS File -->
-  <link rel="stylesheet" href="dist/style.css?cb=1600711159828" />
+  <link rel="stylesheet" href="dist/style.css?cb=1600286514477" />
+
+  <!-- Animate.css -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 
 <body>
   <main>
     <section class="landing container">
       <img class="top-filler" src="dist/images/dot-grid.svg" alt="" />
+
       <nav class="navigation">
         <img src="dist/images/logo.png" alt="logo" />
         <ul class="nav-links">
@@ -35,9 +42,8 @@
           <span class="line3"></span>
         </div>
       </nav>
-      </nav>
-      <p class="hi">Hi!</p>
-      <h1>My name is Karolis, I design & build awesome web projects</h1>
+      <p class="hi animate__animated animate__fadeInUp">Hi!</p>
+      <h1 class="animate__animated animate__fadeInUp animate__delay-1s" >My name is Karolis, I design & build awesome web projects</h1>
     </section>
 
     <!-- Sub Heading -->
@@ -50,7 +56,7 @@
     <!-- Works -->
     <section class="work container">
       <div class="work-item">
-        <img src="dist/images/aloe.svg" alt="aloe" />
+        <img class="work-img animate__zoomIn" src="dist/images/aloe.svg" alt="aloe" />
         <div class="side-text">
           <h4 class="desc">
             Aloe beauty products - small local business shop dakkg dakeogi sk dsa
@@ -97,7 +103,9 @@
 
 
     <!-- About me -->
-    <section class="bout-me container">
+    <section class="bout-me container parent">
+      <img class="botton-filler" src="dist/images/dot-grid.svg" alt="" />
+
       <div class="info">
         <p>
           Nulla ultrices facilisis justo, non varius nisl semper vel. Interdum
@@ -110,10 +118,10 @@
       </div>
     </section>
 
-    <div class="sub-heading parent">
+
+    <div class="sub-heading">
       <div class="line"></div>
       <h3>Technologies I use</h3>
-      <img class="botton-filler" src="dist/images/dot-grid.svg" alt="" />
     </div>
 
     <section class="shitiuse container">
@@ -144,8 +152,13 @@
   </footer>
 
   <!-- JavaScript File -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
-  <script src="dist/all.js?cb=1600711159828"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="dist/all.js?cb=1600286514477"></script>
+
+
 </body>
 
 </html>
