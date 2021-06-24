@@ -26,13 +26,16 @@
   <title>Davli</title>
 
   <!-- CSS File -->
-  <link rel="stylesheet" href="dist/style.css?cb=1624545148808" />
+  <link rel="stylesheet" href="dist/style.css?cb=1624531613106" />
 
   <!-- Animate.css -->
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
@@ -67,7 +70,7 @@
     <!-- Works -->
     <section class="work container">
 
-      <a href="/aloe">
+      <a href="/aloe" data-aos="zoom-in">
         <div class="work-item">
             <img src="dist/images/aaloe.png" alt="aloe" />
           <div class="side-text">
@@ -86,7 +89,7 @@
 
 
 
-      <a href="fuel">
+      <a href="/fuel" data-aos="zoom-in">
         <div class="work-item reverse">
           <img src="dist/images/bodyfuel.png" alt="aloe" />
             <div class="side-text">
@@ -102,7 +105,7 @@
 
 
 
-      <a href="/etch">
+      <a href="/etch" data-aos="zoom-in">
         <div class="work-item">
           <img src="dist/images/ett.jpg" alt="aloe" />
             <div class="side-text">
@@ -197,7 +200,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
 
-  <!-- <script src="dist/all.js?cb=1624545148808"></script> -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- <script src="dist/all.js?cb=1624531613106"></script> -->
   <script src="dist/all.js"></script>
 
 </body>
